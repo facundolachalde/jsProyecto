@@ -9,6 +9,17 @@
 //numeros
 //strings cadena de caracteres
 //booleanos
+/*function evaluacConsulta(confirmacion) {
+    let continuar = prompt(`Quiere Hacer otra consulta de ranking?`);
+    confirmacion=continuar;
+    return confirmacion;
+}*/
+/*let decision = prompt(`Quiere Chequear su ventana de canje?`)
+if (decision === "si") {
+    chequeoVentana();
+} else {
+    alert('Adios!')
+}*/
 function chequeoVentana(ventana) {
     let puntos = Number(prompt(`¿Que rango de puntos te encontras?:
     1. 0 a 999
@@ -31,17 +42,6 @@ function chequeoVentana(ventana) {
     ventana=puntos;
     return alert(`Te encuentras en el rango de puntos:`+ ventana +' '+ `sigue sumando para tener mejor posicionamiento` )   
 }
-/*function evaluacConsulta(confirmacion) {
-    let continuar = prompt(`Quiere Hacer otra consulta de ranking?`);
-    confirmacion=continuar;
-    return confirmacion;
-}*/
-/*let decision = prompt(`Quiere Chequear su ventana de canje?`)
-if (decision === "si") {
-    chequeoVentana();
-} else {
-    alert('Adios!')
-}*/
 let socio = prompt(`¿Sos socio del club y queres saber tu ranking?`);
 while (socio === "si") {
     chequeoVentana();
