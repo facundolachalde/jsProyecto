@@ -46,7 +46,7 @@ body{
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 150px 150px 150px;
-    grid-template-rows: 150px 150px 150px;
+    grid-template-rows:  150px 150px 150px;
 }
 .grid-Padre div{
     padding: 10px;
@@ -56,6 +56,9 @@ body{
     font-family: sans-serif;
     font-size: 24px;
     font-weight: bold;
+}
+.grid-Padre div img{
+    background: fixed;
 }
 @media (max width:700px) {
     .header{
